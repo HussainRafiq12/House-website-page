@@ -1,0 +1,105 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.background-image {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+   url(images/house-design.jpg); 
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.logo {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: "Times New Roman", serif;
+  margin-top: 30px;
+  margin-left: 30px;
+  display: inline-block;
+  float: left;
+}
+
+ul {
+  text-align: right;
+  list-style-type: none;
+  font-size: 25px;
+  padding-top: 10px;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  margin-right: 20px;
+}
+
+.content {
+  font-size: 35px;
+  font-family: "Times New Roman", serif;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.content p {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-family: "Times New Roman", serif;
+  position: absolute;
+  margin: 20px auto;
+  line-height: 20px;
+  text-align: center;
+  top: 30%;
+  left: 30%;
+  margin-top: 15px;
+}
+
+button {
+  margin-top: 4%;
+  background: none;
+  width: 200px;
+  padding: 15px 0;
+  text-align: center;
+  margin: 20px 10px;
+  border-radius: 20px;
+  background: transparent;
+  color: #000000;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  font-size: 18px;
+}
+
+span {
+  background: #fff;
+  height: 100%;
+  width: 0;
+  border-radius: 20px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: 0.5s;
+}
+
+button:hover span {
+  width: 100%;
+}
+
+button:hover {
+  border: none;
+}
